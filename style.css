@@ -29,10 +29,11 @@ margin-top:20px;
 margin-right: 20px;
 color: black; 
 }
-ul
+.menu ul
 {
     float: right;
 margin-right: 40px;
+display: inline;
 }
  .home{
     background-image: url("home.png");
@@ -42,7 +43,7 @@ margin-right: 40px;
     width: 100%;
  }
  
- h1{
+ .dsc{
     display: flex;
     margin-top: 280px;
     margin-left: 20px;
@@ -50,7 +51,7 @@ margin-right: 40px;
     font-size: 40px;
  }
 
-h2{  
+ .dscp{  
       display: flex;
     margin-bottom: 30px;
     margin-left: 50px;
@@ -65,7 +66,21 @@ h2{
     border:none;
     padding: 20px;
     border-radius:90px;
-    margin-top: 0px;
+    margin-top: 30px;
     margin-left: 100px;
-
  }
+
+footer{
+    margin-top: 400px;
+    border-top:1px solid black;
+    box-shadow: 22px 6px 8px;
+}
+
+ footer div
+ {
+    display:inline-table;
+    margin-right: 30px;
+    margin-left: 40px;
+ }
+ 
+   
